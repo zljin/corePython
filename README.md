@@ -49,6 +49,7 @@ recommend vscode or pycharm
 ## introduce directory
 
 /basics : python basics code
+/oob : Object-oriented
 
 ## reference
 

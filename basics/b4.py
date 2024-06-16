@@ -27,6 +27,10 @@ def test():
 def _tomanytip():
     print('Too many arguments!')
 
+def _nonMethod():
+    # pass 语句什么也不做。它用于那些语法上必须要有什么语句，但程序什么也不做的场合
+    pass
+
 
 '''
 当我们在命令行运行hello模块文件时,Python解释器把一个特殊变量__name__置为__main__
