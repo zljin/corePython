@@ -1,12 +1,22 @@
+'''
+启动use_flask.py后 即可运行此程序
+'''
+
+
 import requests
 
 requestHeaders = {
     'Content-Type': 'application/json'
 }
 
-requestBody = {'key1': 'value1', 'key2': 'value2'}
+requestBody = {'username': 'leoanrd', 'age': '18'}
 
-response = requests.get('https://www.baidu.com/', params={'a': 'a'},headers=requestHeaders,data=requestBody)
+requestParams = {'wd': '666'}
+
+# response = requests.get('http://127.0.0.1:8890/tieba/', params=requestParams,headers=requestHeaders)
+
+
+response = requests.post('http://127.0.0.1:8890/postApi/',headers=requestHeaders,json=requestBody)
 
 
 if response.status_code == 200:

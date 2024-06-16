@@ -49,14 +49,21 @@ recommend vscode or pycharm
 ## introduce directory
 
 /basics : python basics code
-/oob : Object-oriented
+
+/oop : Object-oriented code
+
+/third: third lib to use
+
+/commonlib: common lib to use
+
+/assets: some static files
 
 ## reference
 
-Anaconda：基于Python的数据处理和科学计算平台，它已经内置了许多非常有用的第三方库
+https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-zh.md#python
+
 https://www.anaconda.com/download/
 
+https://devguide.python.org/
 
-https://www.liaoxuefeng.com/wiki/1016959663602400/1017496031185408
-https://www.cnblogs.com/derek1184405959/p/8579428.html
-https://pythonguidecn.readthedocs.io/zh/latest/
+

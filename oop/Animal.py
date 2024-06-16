@@ -35,7 +35,7 @@ class Pig(Animal):
     pass
 
 class Dog(Animal):
-
+    """ 这里显示的是描述信息 """
     # 类属性
     version = 1
 
@@ -66,3 +66,6 @@ run_Animal(d)
 
 print(type(c))
 print(dir(c))
+
+# 显示类的描述信息
+print(Dog.__doc__)
